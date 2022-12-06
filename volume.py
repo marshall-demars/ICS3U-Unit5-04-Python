@@ -10,6 +10,7 @@ import math
 def cylinder_volume_calculation(radius, height):
     # This function calculates the volume of the cylinder
 
+    # Process
     if radius < 0 or height < 0:
         return -1
     else:
@@ -21,6 +22,7 @@ def cylinder_volume_calculation(radius, height):
 def main():
     # This function gets the inputs and does try catch
 
+    # Input
     radius_as_string = input("Enter the radius of the cylinder (cm): ")
     height_as_string = input("Enter the height of the cylinder (cm): ")
 
